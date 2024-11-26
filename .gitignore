@@ -1,0 +1,10 @@
+
+bin/
+obj/
+packages/
+.vscode/
+*.log
+.nuget/
+
+Debug/
+Release/
