@@ -12,7 +12,7 @@ class SnakeHead : GameObject
     public double Length = 2;
     public float Speed = 10f;
     private Direction direction = Direction.Up;
-    readonly Queue<SnakeBody> snakeBodies = [];
+    readonly Queue<SnakeBody> snakeBodies = [];//只读？
     public SnakeHead(Vector2 position)
     {
         this.position = position;

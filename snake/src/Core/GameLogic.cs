@@ -73,9 +73,9 @@ class GameLogic
     {
         for (int i = 0; i < gameObjects.Count; i++)
             if (gameObjects[i].Remove)
-                gameObjects.Remove(gameObjects[i--]);//i--?
+                gameObjects.Remove(gameObjects[i--]);
     }
-    public static Vector2 RoundToGrid(Vector2 position)//四舍五入？为什么需要？
+    public static Vector2 RoundToGrid(Vector2 position)
     {
         position.X = (int)(position.X + 0.5f);
         position.Y = (int)(position.Y + 0.5f);

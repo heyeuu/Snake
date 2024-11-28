@@ -1,5 +1,4 @@
-﻿
-using Snake.Core;
+﻿using Snake.Core;
 using Snake.Food;
 
 class Program

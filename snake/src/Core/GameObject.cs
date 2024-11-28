@@ -26,7 +26,7 @@ namespace Snake.Core
             texture.texture = Texture.Null;
             GameLogic.AddGameObject(this);
         }
-        public void DeleteThis()//为什么需要记录这个Romove？谨防段错误？
+        public void DeleteThis()
         {
             Remove = true;
         }
